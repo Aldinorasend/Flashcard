@@ -63,14 +63,8 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - lib/asset/logo.png
-    - lib/asset/kategori/1.png
-    - lib/asset/kategori/2.png
-    - lib/asset/kategori/3.png
-    - lib/asset/kategori/4.png
-    - lib/asset/kategori/5.png
-    - lib/asset/kategori/6.png
-    - lib/asset/kategori/7.png
-    - lib/asset/kategori/8.png
+    - lib/asset/kategori/
+    
   
 
   # An image asset can refer to one or more resolution-specific "variants", see
