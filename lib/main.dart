@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:flashcard/screen/login.dart';
 import 'package:flutter/material.dart';
 import 'screen/kategori.dart';
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flashcard',
-      home: SplashScreen(),
+      home: Login(),
     );
   }
 }

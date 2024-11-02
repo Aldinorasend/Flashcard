@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 
 class Kategori extends StatelessWidget {
+  final String? username;
+
+  const Kategori({super.key, this.username});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
