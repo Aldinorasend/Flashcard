@@ -65,6 +65,14 @@ flutter:
     - lib/asset/kategori/
     - lib/asset/
     - lib/asset/logoflashcard.png
+    - lib/asset/kategori1/
+    - lib/asset/kategori2/
+    - lib/asset/kategori3/
+    - lib/asset/kategori4/
+    - lib/asset/kategori5/
+    - lib/asset/kategori6/
+    - lib/asset/kategori7/
+    - lib/asset/kategori8/
     
   
 
