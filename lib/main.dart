@@ -17,7 +17,18 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flashcard',
-      home: Login(),
+
+   
+
+      theme: ThemeData(
+        scaffoldBackgroundColor: Colors.white, // Set default background color
+        primaryColor: Colors.white, // Set primary color to white
+        colorScheme: ColorScheme.fromSwatch().copyWith(
+          primary: Colors.white,
+        ),
+      ),
+      home: SplashScreen(),
+
     );
   }
 }
@@ -44,11 +55,10 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor:
-          Colors.blueAccent, // Background color of the splash screen
+      backgroundColor: Colors.white, // Background color of the splash screen
       body: Center(
-        child:
-            Image.asset('lib/asset/logo.png', width: 200), // Add your logo here
+        child: Image.asset('lib/asset/logoflashcard.png',
+            width: 200), // Add your logo here
       ),
     );
   }
