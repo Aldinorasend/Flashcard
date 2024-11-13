@@ -83,25 +83,29 @@ class kategori2 extends StatelessWidget {
                                                           fontWeight:
                                                               FontWeight.bold),
                                                     ),
-                                                    TextField(
-                                                      decoration: InputDecoration(
-                                                          border:
-                                                              OutlineInputBorder(),
-                                                          focusedBorder:
-                                                              OutlineInputBorder(
-                                                                  borderSide: BorderSide(
-                                                                      color: Colors
-                                                                          .blue)),
-                                                          enabledBorder:
-                                                              OutlineInputBorder(
-                                                                  borderSide:
-                                                                      BorderSide(
-                                                                          color:
-                                                                              Colors.blue))),
-                                                      maxLines: 2,
-                                                      keyboardType:
-                                                          TextInputType
-                                                              .multiline,
+                                                    Container(
+                                                      width:
+                                                          MediaQuery.of(context)
+                                                                  .size
+                                                                  .width *
+                                                              0.7,
+                                                      child: TextField(
+                                                        decoration: InputDecoration(
+                                                            border:
+                                                                OutlineInputBorder(),
+                                                            focusedBorder: OutlineInputBorder(
+                                                                borderSide: BorderSide(
+                                                                    color: Colors
+                                                                        .blue)),
+                                                            enabledBorder: OutlineInputBorder(
+                                                                borderSide: BorderSide(
+                                                                    color: Colors
+                                                                        .blue))),
+                                                        maxLines: 2,
+                                                        keyboardType:
+                                                            TextInputType
+                                                                .multiline,
+                                                      ),
                                                     ),
                                                     Text(
                                                       "No HP Ayah : ",
@@ -109,21 +113,25 @@ class kategori2 extends StatelessWidget {
                                                           fontWeight:
                                                               FontWeight.bold),
                                                     ),
-                                                    TextField(
-                                                      decoration: InputDecoration(
-                                                          border:
-                                                              OutlineInputBorder(),
-                                                          focusedBorder:
-                                                              OutlineInputBorder(
-                                                                  borderSide: BorderSide(
-                                                                      color: Colors
-                                                                          .blue)),
-                                                          enabledBorder:
-                                                              OutlineInputBorder(
-                                                                  borderSide:
-                                                                      BorderSide(
-                                                                          color:
-                                                                              Colors.blue))),
+                                                    Container(
+                                                      width:
+                                                          MediaQuery.of(context)
+                                                                  .size
+                                                                  .width *
+                                                              0.7,
+                                                      child: TextField(
+                                                        decoration: InputDecoration(
+                                                            border:
+                                                                OutlineInputBorder(),
+                                                            focusedBorder: OutlineInputBorder(
+                                                                borderSide: BorderSide(
+                                                                    color: Colors
+                                                                        .blue)),
+                                                            enabledBorder: OutlineInputBorder(
+                                                                borderSide: BorderSide(
+                                                                    color: Colors
+                                                                        .blue))),
+                                                      ),
                                                     ),
                                                     Text(
                                                       "Aku Istimewa Karena : ",
@@ -131,25 +139,29 @@ class kategori2 extends StatelessWidget {
                                                           fontWeight:
                                                               FontWeight.bold),
                                                     ),
-                                                    TextField(
-                                                      decoration: InputDecoration(
-                                                          border:
-                                                              OutlineInputBorder(),
-                                                          focusedBorder:
-                                                              OutlineInputBorder(
-                                                                  borderSide: BorderSide(
-                                                                      color: Colors
-                                                                          .blue)),
-                                                          enabledBorder:
-                                                              OutlineInputBorder(
-                                                                  borderSide:
-                                                                      BorderSide(
-                                                                          color:
-                                                                              Colors.blue))),
-                                                      maxLines: 2,
-                                                      keyboardType:
-                                                          TextInputType
-                                                              .multiline,
+                                                    Container(
+                                                      width:
+                                                          MediaQuery.of(context)
+                                                                  .size
+                                                                  .width *
+                                                              0.7,
+                                                      child: TextField(
+                                                        decoration: InputDecoration(
+                                                            border:
+                                                                OutlineInputBorder(),
+                                                            focusedBorder: OutlineInputBorder(
+                                                                borderSide: BorderSide(
+                                                                    color: Colors
+                                                                        .blue)),
+                                                            enabledBorder: OutlineInputBorder(
+                                                                borderSide: BorderSide(
+                                                                    color: Colors
+                                                                        .blue))),
+                                                        maxLines: 2,
+                                                        keyboardType:
+                                                            TextInputType
+                                                                .multiline,
+                                                      ),
                                                     ),
                                                   ]),
                                             ),
