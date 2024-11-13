@@ -3,6 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:flashcard/screen/kategori1.dart';
 
 class Kategori extends StatelessWidget {
+  final String? username;
+
+  const Kategori({super.key, this.username});
+
   @override
   Widget build(BuildContext context) {
     // TODO: implement build

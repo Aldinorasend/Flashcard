@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:flashcard/screen/login.dart';
 import 'package:flutter/material.dart';
 import 'screen/kategori.dart';
 
@@ -16,6 +17,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flashcard',
+
+   
+
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.white, // Set default background color
         primaryColor: Colors.white, // Set primary color to white
@@ -24,6 +28,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
       home: SplashScreen(),
+
     );
   }
 }
